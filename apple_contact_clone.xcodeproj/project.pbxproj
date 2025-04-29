@@ -29,20 +29,42 @@
 		1ECCE7FC2DB7B70A0017CA12 /* apple_contact_cloneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = apple_contact_cloneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		1EFA37E72DC1945900864461 /* Exceptions for "apple_contact_clone" folder in "apple_contact_clone" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Tests/apple_contact_cloneTests.swift,
+				Tests/apple_contact_cloneUITests.swift,
+				Tests/apple_contact_cloneUITestsLaunchTests.swift,
+			);
+			target = 1ECCE7E42DB7B7080017CA12 /* apple_contact_clone */;
+		};
+		1EFA37E82DC1945900864461 /* Exceptions for "apple_contact_clone" folder in "apple_contact_cloneUITests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Tests/apple_contact_cloneUITests.swift,
+				Tests/apple_contact_cloneUITestsLaunchTests.swift,
+			);
+			target = 1ECCE7FB2DB7B70A0017CA12 /* apple_contact_cloneUITests */;
+		};
+		1EFA37E92DC1945B00864461 /* Exceptions for "apple_contact_clone" folder in "apple_contact_cloneTests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Tests/apple_contact_cloneTests.swift,
+			);
+			target = 1ECCE7F12DB7B70A0017CA12 /* apple_contact_cloneTests */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		1ECCE7E72DB7B7080017CA12 /* apple_contact_clone */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				1EFA37E72DC1945900864461 /* Exceptions for "apple_contact_clone" folder in "apple_contact_clone" target */,
+				1EFA37E92DC1945B00864461 /* Exceptions for "apple_contact_clone" folder in "apple_contact_cloneTests" target */,
+				1EFA37E82DC1945900864461 /* Exceptions for "apple_contact_clone" folder in "apple_contact_cloneUITests" target */,
+			);
 			path = apple_contact_clone;
-			sourceTree = "<group>";
-		};
-		1ECCE7F52DB7B70A0017CA12 /* apple_contact_cloneTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = apple_contact_cloneTests;
-			sourceTree = "<group>";
-		};
-		1ECCE7FF2DB7B70A0017CA12 /* apple_contact_cloneUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = apple_contact_cloneUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -76,8 +98,6 @@
 			isa = PBXGroup;
 			children = (
 				1ECCE7E72DB7B7080017CA12 /* apple_contact_clone */,
-				1ECCE7F52DB7B70A0017CA12 /* apple_contact_cloneTests */,
-				1ECCE7FF2DB7B70A0017CA12 /* apple_contact_cloneUITests */,
 				1ECCE7E62DB7B7080017CA12 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -130,9 +150,6 @@
 			dependencies = (
 				1ECCE7F42DB7B70A0017CA12 /* PBXTargetDependency */,
 			);
-			fileSystemSynchronizedGroups = (
-				1ECCE7F52DB7B70A0017CA12 /* apple_contact_cloneTests */,
-			);
 			name = apple_contact_cloneTests;
 			packageProductDependencies = (
 			);
@@ -152,9 +169,6 @@
 			);
 			dependencies = (
 				1ECCE7FE2DB7B70A0017CA12 /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				1ECCE7FF2DB7B70A0017CA12 /* apple_contact_cloneUITests */,
 			);
 			name = apple_contact_cloneUITests;
 			packageProductDependencies = (
