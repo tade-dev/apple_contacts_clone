@@ -26,7 +26,7 @@ struct ContentView: View {
                     Label("Recents", systemImage: "clock.fill")
                 }
             
-            ContactView()
+            ListOptionsView()
                 .ignoresSafeArea()
                 .tabItem {
                     Label("Contacts", systemImage: "person.crop.circle.fill")
